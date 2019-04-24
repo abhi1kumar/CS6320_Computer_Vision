@@ -1,0 +1,76 @@
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Processing...
+Done!
+
+Model 1 ...
+Sequential(
+  (0): Linear(in_features=784, out_features=10, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=10, out_features=10, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=10, out_features=10, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=10, out_features=10, bias=True)
+  (7): ReLU()
+  (8): Linear(in_features=10, out_features=10, bias=True)
+)
+
+Model save folder  = /home/abhinav/course/CS6320_CV/Assignment_5/project_5/Outputs/q1_model1
+-------------------------------
+Optimisation Parameters
+-------------------------------
+lr                 = 0.0100
+momentum           = 0.9000
+weight decay       = 0.0030
+epochs             = 121
+lr decay step size = 50
+lr decay gamma     = 0.10
+
+Test: [0/1]	Time 0.927 (0.927)	Loss 0.3754 (0.3754)	Prec@1 88.680 (88.680)
+Epoch: [0] * Prec@1 88.680
+Test: [0/1]	Time 0.899 (0.899)	Loss 0.2186 (0.2186)	Prec@1 93.440 (93.440)
+Epoch: [30] * Prec@1 93.440
+Test: [0/1]	Time 0.909 (0.909)	Loss 0.1858 (0.1858)	Prec@1 94.700 (94.700)
+Epoch: [60] * Prec@1 94.700
+Test: [0/1]	Time 0.924 (0.924)	Loss 0.1797 (0.1797)	Prec@1 94.900 (94.900)
+Epoch: [90] * Prec@1 94.900
+Test: [0/1]	Time 0.905 (0.905)	Loss 0.1772 (0.1772)	Prec@1 94.930 (94.930)
+Epoch: [120] * Prec@1 94.930
+
+
+
+Model 2 ...
+Sequential(
+  (0): Linear(in_features=784, out_features=10, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=10, out_features=10, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=10, out_features=10, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=10, out_features=10, bias=True)
+)
+
+Model save folder  = /home/abhinav/course/CS6320_CV/Assignment_5/project_5/Outputs/q1_model2
+-------------------------------
+Optimisation Parameters
+-------------------------------
+lr                 = 0.0100
+momentum           = 0.9000
+weight decay       = 0.0030
+epochs             = 121
+lr decay step size = 50
+lr decay gamma     = 0.10
+
+Test: [0/1]	Time 0.899 (0.899)	Loss 0.4260 (0.4260)	Prec@1 87.630 (87.630)
+Epoch: [0] * Prec@1 87.630
+Test: [0/1]	Time 0.908 (0.908)	Loss 0.2219 (0.2219)	Prec@1 93.430 (93.430)
+Epoch: [30] * Prec@1 93.430
+Test: [0/1]	Time 0.899 (0.899)	Loss 0.1977 (0.1977)	Prec@1 94.050 (94.050)
+Epoch: [60] * Prec@1 94.050
+Test: [0/1]	Time 0.973 (0.973)	Loss 0.1916 (0.1916)	Prec@1 94.260 (94.260)
+Epoch: [90] * Prec@1 94.260
+Test: [0/1]	Time 0.901 (0.901)	Loss 0.1908 (0.1908)	Prec@1 94.350 (94.350)
+Epoch: [120] * Prec@1 94.350

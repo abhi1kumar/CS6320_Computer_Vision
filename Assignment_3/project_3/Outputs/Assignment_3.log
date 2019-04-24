@@ -1,0 +1,240 @@
+--------------------------------------------------
+	Q1: Belief Propagation	
+--------------------------------------------------
+Displaying adjancency matrix of variable nodes (as rows) vs factor nodes (as columns)
+[[1 0 0 0 0 0 0 1 1 1]
+ [0 1 0 0 0 0 0 1 1 0]
+ [0 0 1 0 0 0 0 1 0 1]
+ [0 0 0 1 0 0 0 0 1 1]
+ [0 0 0 0 1 0 0 1 0 0]
+ [0 0 0 0 0 1 0 0 1 0]
+ [0 0 0 0 0 0 1 0 0 1]]
+0
+1
+2
+**** Final labels **** 
+[0 0 0 0 0 0 0]
+
+
+--------------------------------------------------
+	Q2: Stereo Matching using BP Algorithm	
+--------------------------------------------------
+Left  Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/left1.png
+Right Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/right1.png
+Lambda = 1
+(375, 450)
+Iteration 0, Cost 6467461.000000
+Iteration 1, Cost 804627.000000
+Iteration 2, Cost 780053.000000
+Iteration 3, Cost 774792.000000
+Iteration 4, Cost 772902.000000
+Iteration 5, Cost 771859.000000
+Iteration 6, Cost 771140.000000
+Iteration 7, Cost 770847.000000
+Iteration 8, Cost 770658.000000
+Iteration 9, Cost 770590.000000
+Iteration 10, Cost 770533.000000
+Iteration 11, Cost 770514.000000
+Iteration 12, Cost 770489.000000
+Iteration 13, Cost 770488.000000
+Iteration 14, Cost 770484.000000
+Iteration 15, Cost 770482.000000
+
+Output Orig + Dispar Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_1_orig_disp.png
+Output Disparity Map Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_1_disparity.png
+
+Left  Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/left1.png
+Right Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/right1.png
+Lambda = 10
+(375, 450)
+Iteration 0, Cost 6467461.000000
+Iteration 1, Cost 6394212.000000
+Iteration 2, Cost 5573505.000000
+Iteration 3, Cost 5148035.000000
+Iteration 4, Cost 4826110.000000
+Iteration 5, Cost 4528406.000000
+Iteration 6, Cost 4299695.000000
+Iteration 7, Cost 4091671.000000
+Iteration 8, Cost 3918523.000000
+Iteration 9, Cost 3773719.000000
+Iteration 10, Cost 3640341.000000
+Iteration 11, Cost 3521530.000000
+Iteration 12, Cost 3422976.000000
+Iteration 13, Cost 3330754.000000
+Iteration 14, Cost 3248038.000000
+Iteration 15, Cost 3172838.000000
+Iteration 16, Cost 3101996.000000
+Iteration 17, Cost 3039820.000000
+Iteration 18, Cost 2983542.000000
+Iteration 19, Cost 2932893.000000
+
+Output Orig + Dispar Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_10_orig_disp.png
+Output Disparity Map Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_10_disparity.png
+
+Left  Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/left1.png
+Right Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/right1.png
+Lambda = 50
+(375, 450)
+Iteration 0, Cost 6467461.000000
+Iteration 1, Cost 31236812.000000
+Iteration 2, Cost 25655049.000000
+Iteration 3, Cost 22663043.000000
+Iteration 4, Cost 20072284.000000
+Iteration 5, Cost 18125669.000000
+Iteration 6, Cost 16749143.000000
+Iteration 7, Cost 15615828.000000
+Iteration 8, Cost 14640604.000000
+Iteration 9, Cost 13843007.000000
+Iteration 10, Cost 13162423.000000
+Iteration 11, Cost 12567841.000000
+Iteration 12, Cost 12044615.000000
+Iteration 13, Cost 11576895.000000
+Iteration 14, Cost 11157121.000000
+Iteration 15, Cost 10784638.000000
+Iteration 16, Cost 10432961.000000
+Iteration 17, Cost 10128654.000000
+Iteration 18, Cost 9833786.000000
+Iteration 19, Cost 9552980.000000
+
+Output Orig + Dispar Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_50_orig_disp.png
+Output Disparity Map Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_50_disparity.png
+
+Left  Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/left1.png
+Right Input Image = /home/u1209853/course/CS6320_CV/Assignment_3/Inputs/right1.png
+Lambda = 100
+(375, 450)
+Iteration 0, Cost 6467461.000000
+Iteration 1, Cost 62290062.000000
+Iteration 2, Cost 50907189.000000
+Iteration 3, Cost 44688789.000000
+Iteration 4, Cost 39130391.000000
+Iteration 5, Cost 34966283.000000
+Iteration 6, Cost 32070023.000000
+Iteration 7, Cost 29897647.000000
+Iteration 8, Cost 27916950.000000
+Iteration 9, Cost 26291832.000000
+Iteration 10, Cost 24944142.000000
+Iteration 11, Cost 23833221.000000
+Iteration 12, Cost 22788347.000000
+Iteration 13, Cost 21859219.000000
+Iteration 14, Cost 21028918.000000
+Iteration 15, Cost 20286205.000000
+Iteration 16, Cost 19630944.000000
+Iteration 17, Cost 19082401.000000
+Iteration 18, Cost 18530895.000000
+Iteration 19, Cost 18024621.000000
+
+Output Orig + Dispar Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_100_orig_disp.png
+Output Disparity Map Path = /home/u1209853/course/CS6320_CV/Assignment_3/Outputs/1_lambda_100_disparity.png
+
+Left  Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/left2.png
+Right Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/right2.png
+Lambda = 1
+(375, 450)
+Iteration 0, Cost 6073864.000000
+Iteration 1, Cost 813418.000000
+Iteration 2, Cost 784166.000000
+Iteration 3, Cost 776765.000000
+Iteration 4, Cost 772199.000000
+Iteration 5, Cost 769845.000000
+Iteration 6, Cost 768188.000000
+Iteration 7, Cost 767374.000000
+Iteration 8, Cost 766885.000000
+Iteration 9, Cost 766591.000000
+Iteration 10, Cost 766423.000000
+Iteration 11, Cost 766316.000000
+Iteration 12, Cost 766259.000000
+Iteration 13, Cost 766219.000000
+Iteration 14, Cost 766187.000000
+Iteration 15, Cost 766172.000000
+Iteration 16, Cost 766154.000000
+Iteration 17, Cost 766154.000000
+Iteration 18, Cost 766146.000000
+
+Output Orig + Dispar Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_1_orig_disp.png
+Output Disparity Map Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_1_disparity.png
+
+Left  Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/left2.png
+Right Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/right2.png
+Lambda = 10
+(375, 450)
+Iteration 0, Cost 6073864.000000
+Iteration 1, Cost 6363484.000000
+Iteration 2, Cost 5537896.000000
+Iteration 3, Cost 5072546.000000
+Iteration 4, Cost 4692280.000000
+Iteration 5, Cost 4370685.000000
+Iteration 6, Cost 4109678.000000
+Iteration 7, Cost 3877844.000000
+Iteration 8, Cost 3701196.000000
+Iteration 9, Cost 3535705.000000
+Iteration 10, Cost 3400413.000000
+Iteration 11, Cost 3273542.000000
+Iteration 12, Cost 3163544.000000
+Iteration 13, Cost 3066987.000000
+Iteration 14, Cost 2980815.000000
+Iteration 15, Cost 2903566.000000
+Iteration 16, Cost 2829131.000000
+Iteration 16, Cost 2829131.000000
+Iteration 17, Cost 2763775.000000
+Iteration 18, Cost 2707398.000000
+Iteration 19, Cost 2649353.000000
+
+Output Orig + Dispar Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_10_orig_disp.png
+Output Disparity Map Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_10_disparity.png
+
+Left  Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/left2.png
+Right Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/right2.png
+Lambda = 50
+(375, 450)
+Iteration 0, Cost 6073864.000000
+Iteration 1, Cost 31030444.000000
+Iteration 2, Cost 25874663.000000
+Iteration 3, Cost 22874852.000000
+Iteration 4, Cost 20146368.000000
+Iteration 5, Cost 18054938.000000
+Iteration 6, Cost 16613083.000000
+Iteration 7, Cost 15497748.000000
+Iteration 8, Cost 14500100.000000
+Iteration 9, Cost 13644090.000000
+Iteration 10, Cost 13006773.000000
+Iteration 11, Cost 12384774.000000
+Iteration 12, Cost 11895783.000000
+Iteration 13, Cost 11432429.000000
+Iteration 14, Cost 11064469.000000
+Iteration 15, Cost 10701006.000000
+Iteration 16, Cost 10381532.000000
+Iteration 17, Cost 10085575.000000
+Iteration 18, Cost 9836232.000000
+Iteration 19, Cost 9594762.000000
+
+Output Orig + Dispar Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_50_orig_disp.png
+Output Disparity Map Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_50_disparity.png
+
+Left  Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/left2.png
+Right Input Image = /home/abhinav/course/CS6320_CV/Assignment_3/Inputs/right2.png
+Lambda = 100
+(375, 450)
+Iteration 0, Cost 6073864.000000
+Iteration 1, Cost 61864144.000000
+Iteration 2, Cost 51373375.000000
+Iteration 3, Cost 45189258.000000
+Iteration 4, Cost 39444499.000000
+Iteration 5, Cost 35005487.000000
+Iteration 6, Cost 32072070.000000
+Iteration 7, Cost 29831867.000000
+Iteration 8, Cost 27908973.000000
+Iteration 9, Cost 26126602.000000
+Iteration 10, Cost 24875013.000000
+Iteration 11, Cost 23629989.000000
+Iteration 12, Cost 22651951.000000
+Iteration 13, Cost 21754487.000000
+Iteration 14, Cost 20954817.000000
+Iteration 15, Cost 20311072.000000
+Iteration 16, Cost 19710515.000000
+Iteration 17, Cost 19152563.000000
+Iteration 18, Cost 18607892.000000
+Iteration 19, Cost 18160196.000000
+
+Output Orig + Dispar Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_100_orig_disp.png
+Output Disparity Map Path = /home/abhinav/course/CS6320_CV/Assignment_3/Outputs/2_lambda_100_disparity.png
